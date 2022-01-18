@@ -4,7 +4,7 @@ from unittest import main, TestCase
 from arithmetic_arranger import arithmetic_arranger
 
 
-class ArithmeticFormatterTest(TestCase):
+class TestArithmeticFormatter(TestCase):
     def test_too_many_problems(self):
         current = arithmetic_arranger(
             ["66 + 145", "9 + 2", "85 - 12", "859 + 20", "74 - 32", "2147 - 785"])
